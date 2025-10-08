@@ -1,0 +1,5 @@
+a = int(input("Enter the radius:"))
+b = int(input("Enter the number:"))
+c = float(input("Enter the pi:"))
+print("total = ", a * a * b * c)
+print ("Section-A\nSection-B\nSection-C\n")
