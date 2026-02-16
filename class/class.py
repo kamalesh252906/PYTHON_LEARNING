@@ -153,6 +153,74 @@
 
 
 
+class Calculator:
+    def __init__(self,a,b):
+        self.a = a
+        self.b = b
+
+    def add(self):
+        return self.a + self.b
+    
+    def subtract(self):
+        return self.a - self.b
+    
+    def multiply(self):
+        return self.a * self.b
+    
+    def division(self):
+        return self.a / self.b
+    
+Calc = Calculator(10,5)
+print(Calc.add())
+print(Calc.multiply())
+
+
+
+# class Calculator {
+#   add(a, b) {
+#     return a + b;
+#   }
+
+#   subtract(a, b) {
+#     return a - b;
+#   }
+
+#   multiply(a, b) {
+#     return a * b;
+#   }
+
+#   divide(a, b) {
+#     if (b === 0) {
+#       return "Error! Division by zero";
+#     }
+#     return a / b;
+#   }
+# }
+
+# // Create object
+# const calc = new Calculator();
+
+# // Input from user
+# let a = Number(prompt("Enter first number:"));
+# let b = Number(prompt("Enter second number:"));
+
+# let choice = prompt(
+#   "Choose operation:\n1. Add\n2. Subtract\n3. Multiply\n4. Divide"
+# );
+
+# // Perform operation
+# switch (choice) {
+#   case "1":
+#     console.log("Result:", calc.add(a, b));
+#     break;
+#   case "2":
+#     console.log("Result:", calc.subtract
+
+
+
+
+
+
 
 
 
